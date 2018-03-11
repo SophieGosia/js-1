@@ -161,6 +161,13 @@ switch (question.toLowerCase()) {
 
 // (condition) ? code_if_condition_is_true : code_if_condition_is_false
 
+var a = 10;
+var b = 100;
+var whatIsBigger = a > b ? 'Variable a is bigger' : 'Variable b is bigger';
+
+// warunek ? prawda : nieprawda;
+console.log(whatIsBigger);
+
 // ZADANIE - Instrukcje warunkowe w pratyce
 var a = prompt("enter value 'a'");
 var b = prompt("enter value 'b'");
