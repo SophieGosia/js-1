@@ -1,9 +1,5 @@
 // script.js
 
-//komentowanie w js - liniowe
-/* tak można wykomentować 
-więcej linijek kodu */ 
-
 // wyskakujące okienko pytające o imię
 var name = prompt('Enter your name');
 alert('Hello, ' + name);
